@@ -1,0 +1,155 @@
+body {
+  color: #40514B;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1875rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 60px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.footer-link {
+  color: #406163;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #ffffff;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.web-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.android-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cyber-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.copyright {
+  color: #406163;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.80rem;
+  padding: 20px 10px;
+}
+
+.eh-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.ml-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dl-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #addee2;
+  color: #406163;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 280px;
+  left: 250px;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #11cdd4 5%, #17777a 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #17777a 5%, #11cdd4 100%);
+	background-color:#17777a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
